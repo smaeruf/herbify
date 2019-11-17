@@ -1,1 +1,20 @@
 @import "bootstrap";
+
+h1 {
+  color: #4a8c26;
+  text-align: center;
+}
+
+.navbar{
+
+}
+
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 770px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
