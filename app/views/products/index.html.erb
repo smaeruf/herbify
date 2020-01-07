@@ -1,4 +1,8 @@
+<% @products.each do |product| %>
+  <div>
+    <h1><%= product.name %></h1><br />
+    <p><%= product.description %></p><br />
+  </div>
 
-<div class=hero>
-<h1>Welcome to Herbify</h1>
-</div>
+  <hr />
+<% end %>
